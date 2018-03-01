@@ -6,7 +6,7 @@ from time import time
 import loadFile as load
 
 t0= time()
-data,h,w = load.loadImage()
+data,h,w = load.loadTifImage()
 plt.figure(figsize=(12, 12))
 plt.imshow(data)
 plt.show()
